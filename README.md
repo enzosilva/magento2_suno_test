@@ -3,8 +3,8 @@
    ``suno/module-subscription``
 
  - [Main Functionalities](#main-functionalities)
- - [Installation](#header-installation)
- - [Configuration](#header-configuration)
+ - [Installation](#installation)
+ - [Configuration](#configuration)
 
 
 ## Main Functionalities
