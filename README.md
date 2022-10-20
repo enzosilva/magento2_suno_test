@@ -19,6 +19,6 @@ Catalog Subscription Sample Module
 
 ## Configuration
 ### Store Configuration
- - Go to the following configuration path: Stores -> Settings -> Configuration -> Suno -> Subscription;
+ - Go to the following configuration path: **Stores -> Settings -> Configuration -> Suno -> Subscription**;
  - Enable the module;
- - Clear the cache to reflect the change: System -> Tools -> Cache Management -> Flush Magento Cache.
+ - Clear the cache to reflect the change: **System -> Tools -> Cache Management -> Flush Magento Cache**.
