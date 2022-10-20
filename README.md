@@ -2,9 +2,9 @@
 
    ``suno/module-subscription``
 
- - [Main Functionalities](#markdown-header-main-functionalities)
- - [Installation](#markdown-header-installation)
- - [Configuration](#markdown-header-configuration)
+ - [Main Functionalities](#main-functionalities)
+ - [Installation](#header-installation)
+ - [Configuration](#header-configuration)
 
 
 ## Main Functionalities
