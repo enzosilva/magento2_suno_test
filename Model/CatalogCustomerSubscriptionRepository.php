@@ -153,8 +153,7 @@ class CatalogCustomerSubscriptionRepository implements CatalogCustomerSubscripti
         try {
             $catalogCustomerSubscriptionModel = $this->catalogCustomerSubscriptionFactory->create();
 
-            $this->resource->load($catalogCustomerSubscriptionModel, $catalogCustomerSubscription->getSalesordercstId());
-
+            $this->get($catalogCustomerSubscription->getEntityId());
             $this->resource->delete($catalogCustomerSubscriptionModel);
         } catch (\Exception $exception) {
             throw new CouldNotDeleteException(__(
