@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Suno\Subscription\Api\Data\CatalogCustomerSubscriptionInterface"
+                type="Suno\Subscription\Model\Data\CatalogCustomerSubscription"/>
+    <preference for="Suno\Subscription\Api\Data\CatalogCustomerSubscriptionSearchResultsInterface"
+                type="Magento\Framework\Api\SearchResults"/>
+    <preference for="Suno\Subscription\Api\CatalogCustomerSubscriptionRepositoryInterface"
+                type="Suno\Subscription\Model\CatalogCustomerSubscriptionRepository"/>
+
+    <type name="Magento\Checkout\Model\Cart">
+        <plugin name="suno_subscription_magento_checkout_model_cart"
+                type="Suno\Subscription\Plugin\Magento\Checkout\Model\Cart"
+                sortOrder="1"/>
+    </type>
+    <type name="Magento\Sales\Api\OrderManagementInterface">
+        <plugin name="suno_subscription_magento_sales_ordermanagement"
+                type="Suno\Subscription\Plugin\Magento\Sales\Api\OrderManagementInterface"
+                sortOrder="1"/>
+    </type>
+</config>

@@ -1,0 +1,17 @@
+{
+    "suno_catalog_product_customer_subscription": {
+        "column": {
+            "entity_id": true,
+            "product_id": true,
+            "customer_id": true,
+            "frequency_unit": true,
+            "subscription_date": true,
+            "is_active": true
+        },
+        "constraint": {
+            "PRIMARY": true,
+            "SUNO_CAT_PRD_CSTR_SUBSCRIPTION_PRD_ID_CAT_PRD_ENTT_ENTT_ID": true,
+            "SUNO_CAT_PRD_CSTR_SUBSCRIPTION_CSTR_ID_CSTR_ENTT_ENTT_ID": true
+        }
+    }
+}

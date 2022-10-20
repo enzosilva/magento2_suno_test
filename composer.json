@@ -1,0 +1,22 @@
+{
+    "name": "suno/module-subscription",
+    "description": "Subscription Sample Module",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Enzo Silva",
+            "email": "enzovaughan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Suno\\Subscription\\": ""
+        }
+    }
+}
