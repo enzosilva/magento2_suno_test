@@ -12,7 +12,7 @@ Catalog Subscription Sample Module
 
 ## Installation
 ### Zip file
- - Unzip the zip file in `app/code/Suno`;
+ - Unzip the zip file in `app/code/Suno/Subscription`;
  - Enable the module by running `php bin/magento module:enable Suno_Subscription`;
  - Apply database updates by running `php bin/magento setup:upgrade`;
  - Flush the cache by running `php bin/magento cache:flush`.
